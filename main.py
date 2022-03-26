@@ -4,4 +4,4 @@ from time import sleep
 
 while True:
     print("Hello World! yeet")
-    sleep()
+    sleep(0.1)
