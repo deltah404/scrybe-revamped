@@ -2,4 +2,4 @@ import os
 import discord
 
 while True:
-    print("Hello World!")
+    print("Hello World! yeet")
