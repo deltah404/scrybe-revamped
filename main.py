@@ -3,5 +3,5 @@ import discord
 from time import sleep
 
 while True:
-    print("Hello World! yeet")
+    print("Hello World!")
     sleep(0.1)
