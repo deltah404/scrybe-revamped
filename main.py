@@ -1,4 +1,2 @@
-#import os
-#import discord
-
-print("Hello World!")
+import os
+import discord
