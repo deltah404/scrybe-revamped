@@ -1,4 +1,5 @@
 import os
 import discord
 
-print("Hello World!")
+while True:
+    print("Hello World!")
