@@ -11,3 +11,5 @@ class Basic:
     @bot.slash_command(guild_ids = guilds)
     async def ping(self, ctx: commands.Context):
         await ctx.respond('Pong')
+
+bot.add_cog(Basic(bot))
