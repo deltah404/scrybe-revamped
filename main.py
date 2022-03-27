@@ -1,8 +1,9 @@
 import os
 import discord
+from discord.ext import commands
 
 token = os.environ['TOKEN']
-client = discord.Client()
+client = commands.Bot()
 
 # load extensions
 for filename in os.listdir('./cogs'):
