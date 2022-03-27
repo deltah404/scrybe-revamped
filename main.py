@@ -12,6 +12,6 @@ for filename in os.listdir('./cogs'):
 
 @bot.event
 async def on_ready():
-    print(f'Booted as: {client.user}') # state when booted
+    print(f'Booted as: {bot.user}') # state when booted
 
 bot.run(token)
