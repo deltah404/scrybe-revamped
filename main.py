@@ -10,7 +10,7 @@ for filename in os.listdir('./cogs'):
     if filename.endswith('.py'):
         bot.load_extension(f'cogs.{filename[:-3]}')
 
-@client.event
+@bot.event
 async def on_ready():
     print(f'Booted as: {client.user}') # state when booted
 
