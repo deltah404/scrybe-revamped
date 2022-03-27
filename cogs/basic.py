@@ -4,7 +4,7 @@ from discord.ext import commands
 
 guilds = get_config("guilds")
 
-class Basic:
+class Basic(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
@@ -12,4 +12,5 @@ class Basic:
     async def ping(self, ctx: commands.Context):
         await self.ctx.respond('Pong')
 
-bot.add_cog(Basic(bot))
+def setup(bot):
+    bot.add_cog(Basic(bot))
